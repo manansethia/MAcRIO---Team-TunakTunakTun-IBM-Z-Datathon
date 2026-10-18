@@ -1,0 +1,39 @@
+# Credentials, Keys & Server Access
+server_login.txt
+*.pem
+*.key
+*.id_rsa
+.env
+.env.*
+
+# Python & Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# Logs & PIDs
+*.log
+*.pid
+
+# OS & Editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large Binary Models & Raw Dataset Dumps (GitHub 100MB limit)
+*.gguf
+*.jsonl.gz
+*.tar.gz
+*.zip
+!android_project/bin/compiled_res.zip
+datasets/
+data/
+cts.jsonl.gz
+openfoodfacts*.jsonl*
